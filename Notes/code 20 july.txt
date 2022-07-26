@@ -1,0 +1,173 @@
+## class making >>>
+
+class Abc{
+  void show(){
+    print('Its Abc class');
+  }
+}
+void main(){
+  Abc x = Abc();
+  x.show();
+  
+}
+
+................................
+use of ..
+
+
+class Abc{
+  void show(){
+    print('Its Abc class');
+  }
+  void display(){
+    print('sagar');
+  }
+}
+void main(){
+  Abc x = Abc()
+  //x.show();
+  .. show()
+  ..display();
+  
+}
+
+.....................
+
+How to staic use
+
+
+class Abc{
+  int a=0;
+  static int b=20;
+  void show(){
+    print('Its Abc class');
+  }
+  void display(){
+    print('sagar${a}');
+    print('jain${b}');
+    //this.a=n;
+  }
+  Abc(n){
+    //print('its class name ');
+    this.a=n;
+  }
+  void operate(n){
+    this.a=n*2;
+    b=n/2;
+  }
+  
+}
+void main(){
+  Abc x = Abc(5);
+  Abc y = Abc(10);
+  //x.show();
+  //.. show()
+  //..display(5);
+  //print(x.a);
+  x.display();
+y.display();
+x.operate(20);
+x.display();
+y.display();
+}
+
+>>>>>>>>>>>>>>>>>
+get set 
+
+class Abc{
+  int a=0;
+  static int b=20;
+  void show(){
+    print('Its Abc class');
+  }
+  void display(){
+    print('sagar${a}');
+    print('jain${b}');
+    //this.a=n;
+  }
+  Abc(n){
+    //print('its class name ');
+    this.a=n;
+  }
+  void operate(n){
+    this.a=n*2;
+    b=n/2;
+  }
+  int get value_a{
+    return this.a+1000;
+  }
+  void set value_a(n){
+    this.a=n;    
+  }
+  
+}
+void main(){
+  Abc x = Abc(5);
+  Abc y = Abc(10);
+  //x.show();
+  //.. show()
+  //..display(5);
+  /*print(x.a);
+  x.a=100;
+  x.display();
+  print(x.a);
+  x.display();
+y.display();
+x.operate(20)
+x.display();
+y.display();*/
+  print(x.value_a);
+  x.value_a=80;
+  x.display();
+}
+
+..............
+inheritence
+
+class xyz{
+  void show(){
+    print('sagar');
+  }
+}
+class pqr extends xyz{
+  void same(){
+    print('jain');
+  }
+}
+void main(){
+  pqr p=pqr();
+  p.same();
+  p.show();
+}
+
+..............
+
+Use of super keyword
+
+class xyz{
+  void show(){
+    print('sagar');
+  }
+}
+class pqr extends xyz{
+  void same(){
+    print('jain');
+  }
+  show()
+  {
+    print('pqr class');
+    super.show();
+  }
+}
+void main(){
+  pqr p=pqr();
+  p.same();
+  p.show();
+}
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+
+
+

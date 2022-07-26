@@ -1,0 +1,152 @@
+try if possible.....
+use of import 'dart.io';
+stdout.write('hello');
+String a = stdin.readLivesync();
+
+
+Useful properties 
+
+number==
+
+isEven
+isOdd
+isNegative
+
+functions ;;
+toDouble
+toInt
+toString
+round
+floor
+ceil
+
+
+String class
+............
+isEmpty
+length
+
+Function ;
+toLowerCase
+toUpperCase
+replaceAll
+split
+substring
+contains
+indexOf
+trim;
+
+List ........
+add
+clear 
+length
+contains
+forEach()/not to mmuch impt
+index of 
+insert
+join
+suffel
+sort
+sublist
+toString 
+toSet
+...............
+
+MAp
+
+keys 
+length 
+Itrebles will not change in the dart.
+
+
+addentries()
+clear()
+remove()
+tostring()
+update()
+containskey()
+containsvalue()
+
+
+
+
+1. no input no return function
+void abc(){
+print('abc');
+}
+2. input but no return
+void abc2(int a){
+print(a);
+}
+3. no input but return
+String abc3(){
+return 'abc'
+}
+4. input and return
+String abc4(string n){
+return 'wow'+n;
+}
+................
+
+void abc5(int a,[b])
+{
+print(a);
+print(b);
+}
+abc5(3);
+abc5(3,'go');
+
+...............
+
+void abc6(int a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+................
+
+
+
+
+
+
+void main(){
+abc();
+abc2(3);
+print(abc3());
+print(abc4('38'));
+abc5(3);
+abc5(3,'go');
+
+
+
+
+
+
+

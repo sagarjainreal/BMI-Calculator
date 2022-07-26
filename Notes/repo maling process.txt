@@ -1,0 +1,93 @@
+Microsoft Windows [Version 10.0.22000.778]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\training\newapp3>git init
+Reinitialized existing Git repository in D:/training/newapp3/.git/
+
+D:\training\newapp3>git add .
+
+D:\training\newapp3>git commit -m "initial"
+On branch master
+nothing to commit, working tree clean
+
+D:\training\newapp3>git remote add origin"https://github.com/sagarjainreal/LuckyNumber.git"
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+D:\training\newapp3>git remote add origin "https://github.com/sagarjainreal/LuckyNumber.git"
+
+D:\training\newapp3>git branch
+* master
+
+D:\training\newapp3>git checkout -b "develop"
+Switched to a new branch 'develop'
+
+D:\training\newapp3>git branch
+* develop
+  master
+
+D:\training\newapp3>git push new origin develop
+error: src refspec origin does not match any
+error: failed to push some refs to 'new'
+
+D:\training\newapp3>git push -u origin develop
+Enumerating objects: 173, done.
+Counting objects: 100% (173/173), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (144/144), done.
+Writing objects: 100% (173/173), 197.44 KiB | 6.37 MiB/s, done.
+Total 173 (delta 19), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (19/19), done.
+remote:
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/sagarjainreal/LuckyNumber/pull/new/develop
+remote:
+To https://github.com/sagarjainreal/LuckyNumber.git
+ * [new branch]      develop -> develop
+branch 'develop' set up to track 'origin/develop'.
+
+D:\training\newapp3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

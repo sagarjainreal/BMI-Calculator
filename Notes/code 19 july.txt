@@ -1,0 +1,126 @@
+Work on dartpad/*
+void main() {
+  int a =10;
+  int b=120;
+  int i=0;
+  if(a>b){
+    print('${a}is bigger than ${b}');
+  }
+   else if(b>a) {
+     print('${b} is bigger than ${a}');
+   }
+     else{
+       print('${a}=${b}');
+     }
+   
+  
+for(i;i<5;i++)
+{
+  print('sagar');
+}
+  List c =[4,8,10];
+  for (var i in c){
+    print(i*4);
+  }
+/*void main()
+{  
+  int i=0;*/
+ sagar1:for(i;i<5;i++){
+   if(i>2){
+     print("sagar");
+     
+   
+   break sagar1;
+   }
+   else{
+     print('sagar2');
+     
+   }
+ }
+}
+
+*/
+void main(){
+  print1:for(int i=0;i<5;i++){
+    print('Run ${i}');
+    print2:for (int j=0;j<4;j++){
+      print('Nice${j}');
+      if(j==1){continue print1 ;}
+      if(i==3){break;}
+      if((i==4)&&(j==2)){
+       break print1 ;
+      }
+      if(j==2){
+        continue;
+      }
+      print('Good');
+    }
+    print('five');
+    }
+  }
+
+## library from a.
+............................
+void main(){
+  int a=10;
+double b= 20.5;
+String c='Hello World';
+List d=[3,4,5,6,7];
+Map e = {'a':[5,4],'b':['x','y']};
+ print( a.isEven)
+    ;     
+  }
+........................
+void main(){
+  int a=10;
+double b= 20.0;
+String c='Hello World';
+List d=[3,4,5,6,7];
+Map e = {'a':[5,4],'b':['x','y']};
+ double k = a.toDouble();
+  print (b);
+    ;     
+  }
+...................use of split......
+void main(){
+  int a=10;
+double b= 20.0;
+String c='Hello World';
+List d=[3,4,5,6,7];
+Map e = {'a':[5,4],'b':['x','y']};
+ double k = a.toDouble();
+  print (b);
+    print(c.split("o"));     
+  }
+
+...........
+use of trim
+
+String m=  "   ner tey";
+  print(m);
+  print(m.trim());
+
+............................
+
+void abc(){
+    print ('abcd');
+    
+  }
+void abc2(int a){
+    print (a);
+}
+String abc3(){
+  return 'abc';
+}
+String abc4(String n){
+  return n+'wow';
+}
+  void main(){
+    abc2(2);
+    abc();
+    print (abc3());
+    print(abc4('jain'));
+
+}
+........................
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

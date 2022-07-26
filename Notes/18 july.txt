@@ -1,0 +1,83 @@
+working on dartpad*
+
+uses of brackets
+() function arguments explanation
+{} function bodies / Map
+[] indexing / List
+<> type defination 
+
+uses of Identifiers
+we can use $ here at starting only
+
+Operators
+1. Arithmatic 
+2. Relational
+3. Logical
+4. bitwise &,|,~,^,>>,<<
+5. Assignment
+
+# 7~/4 here ~/ is floor division its use for get roundoff answer in integer
+
+#. x>>n = x/2^n
+#. x<<n = x*2^n
+
+Special Operators;
+Type Test 
+is ,is!, as ;
+
+Conditional Operator ?_:
+ cond ? true : False
+
+Cascading Operator ".."
+
+
+******
+Data Types:
+ 
+1. Numeric :  int,double
+2. String : string
+3. Boolean : bool
+4. List (ordered collection of hetrogeneous elements)
+5. Map(collection of key value pairs)
+6. Set(unorderd collection of unique elements)
+
+
+### var, const, final , dynamic
+
+.......
+Conditioanl operator;
+1. if-elseif-else
+2. switch-case
+
+..........
+Looping 
+1. for
+2. while
+3. d0-while
+
+### new version of for 
+for(obj in collection)
+{
+
+}
+
+continue and break and lables
+its can break the code at any stage when condition 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

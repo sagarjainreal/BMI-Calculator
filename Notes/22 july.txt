@@ -1,0 +1,26 @@
+widgets are classes
+
+cupertino
+
+material.dart
+material design se related
+
+
+flutter create --offline newapp
+flutter pub get
+flutter run or run debugg
+
+IN dart ? = null safety operator
+  const MyApp({Key? key}) : super(key: key);
+
+
+Scaffold
+is use to do so many things like
+App bar 
+bottom bar
+right /left draw
+body etc...
+
+
+
+

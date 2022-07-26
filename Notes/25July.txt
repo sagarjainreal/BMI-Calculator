@@ -1,0 +1,28 @@
+Platform-based/Basic/Commonly Used Widgets........\\
+
+1. MaterialApp
+2. Scaffold
+3. AppBar
+4. BottomNavigationBar
+5. Icon
+6. Card
+7. ListTile
+8. FloatingActionButton
+9. IconButton
+10. Text
+11. Image(.network() .asset() )
+12. AssetImage -- (demanded an ImageProvider)
+13. PopupMenuButton
+14. TextField
+15. Checkbox
+16. Radio
+17. Slider
+18. FlatButton
+
+CUPERTINO....(For IOS)
+CupertinoButton
+CupertinoDatePicker
+CupertinoNavigationBar
+CupertinoTabBar
+CupertinoTabScaffold
+CupertinoTextFlod
